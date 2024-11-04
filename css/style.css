@@ -6,9 +6,8 @@
 
 
 header{
-    width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(kepek/hatter.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(/kepek/hatter.png);
     background-position:center;
     background-size:cover;
     box-sizing: border-box;
@@ -19,6 +18,65 @@ nav{
 }
 
 .nav-link{
-    color: #000;
+    color: #fff;
     font-size: 20px;
+    padding: 30px;
+    font-weight: bold;
+    text-transform:uppercase;
 }
+
+h3{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+
+}
+
+h1{
+    color: #fff;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 66px;
+    padding-bottom: 40px;
+
+}
+
+h2{
+    color:#835a27;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+.bekezdes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 250px;
+}
+
+#navgomb{
+  
+    width: 130px;
+    margin: auto;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #f6d7b0a6 ;
+    color: #fff;
+    border: none;
+    
+    
+    
+}
+
+span{
+    color: #f6d7b0;
+}
+
+.nav-link:hover{
+    color:#f6d7b0a6 ;
+}
+
+
+
