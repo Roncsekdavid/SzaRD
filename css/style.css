@@ -1,0 +1,38 @@
+.naptar {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 600px;
+}
+
+.ora {
+    grid-area: 1 / 1 / 13 / 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12,1fr);
+}
+
+
+.napok {
+    grid-area: 1 / 2 / 2 / 9;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1fr;
+}
+
+.mezok {
+    grid-area: 2 / 2 / 13 / 9;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+  
+}
+
+.mezok div,.ora div,.napok div{
+    border: 1px solid #959595;
+}
+
+
+
+
+
